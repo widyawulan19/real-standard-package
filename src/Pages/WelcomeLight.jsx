@@ -1,8 +1,9 @@
 import React from 'react'
 import '../Styles/WelcomeLight.css'
-import { IoChevronForwardOutline,IoChatbubbleOutline } from "react-icons/io5";
+import { IoChevronForwardOutline,IoChatbubbleOutline, IoLocateOutline } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import img from '../Assets/logo.png'
+import { IoIosArrowForward } from 'react-icons/io';
 
 function WelcomeLight() {
 
@@ -11,7 +12,7 @@ function WelcomeLight() {
 
     // FUNCTION 
     const navigateToMenu = () =>{
-        navigate('/menu-list')
+        navigate('/choose-menu')
     }
 
   return (
@@ -26,16 +27,27 @@ function WelcomeLight() {
             <img src={img} alt="" />
         </div>
 
+        <div className="light-oh">
+            <h4>OPEN HOUR </h4>
+            <p>10.00 AM - 10.00 PM </p>
+        </div>
+
         <div className="light-btn">
             <button onClick={navigateToMenu}>
                 Discover Our Menu
                 <IoChevronForwardOutline/>
             </button>
 
-            <div className="light-footer">
-                <p>CREATE BY LUMINOUS.ID</p>
-            </div>
-            
+            <button className='btn-location'>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=FOJA+COFFEE" target="_blank" rel="noopener noreferrer">
+                    Get Directions To Foja Coffee
+                </a>
+            </button>
+
+        </div>
+
+        <div className="light-footer">
+            <p>CREATE BY LUMINOUS.ID</p>
         </div>
 
         

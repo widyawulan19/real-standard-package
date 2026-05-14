@@ -1,6 +1,6 @@
 [
     {
-        "category": "Signature",
+        "category": "SIGNATURE",
         "items": [
             {
                 "name": "Borcelle's Special",
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "category": "Cafe Specialty",
+        "category": "CAFE SPECIALITY",
         "items": [
             {
                 "name": "Americano",
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "category": "Iced Coffee",
+        "category": "ICED COFFEE",
         "items": [
             {
                 "name": "Asian Dolce Frappucino",
@@ -87,8 +87,7 @@
                     "S": "-",
                     "M": "$3.50",
                     "L": "$4.00"
-                },
-                "badge": "popular"
+                }
             },
             {
                 "name": "Americano",
@@ -143,7 +142,7 @@
         ]
     },
     {
-        "category": "Manual Brew",
+        "category": "MANUAL BREW",
         "items": [
             {
                 "name": "V60",
